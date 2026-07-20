@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Futuristic Cyberpunk Glow Logo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="relic-container">
+            <div class="logo-wrapper">
+                <h1 class="logo-text" data-text="CYBER">CYBER</h1>
+            </div>
+        </main>
+        <svg style="display: none;">
+            <filter id="cyber-glitch">
+                <feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="1" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+            <filter id="heavy-glitch">
+                <feTurbulence type="fractalNoise" baseFrequency="0.08 0.95" numOctaves="2" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G">
+                </filter>
+            </svg>
+        </body>
+        </html>
