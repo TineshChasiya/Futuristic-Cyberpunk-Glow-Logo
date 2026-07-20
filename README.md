@@ -24,7 +24,7 @@ Perfect for **landing pages, portfolios, gaming websites, tech brands, hero sect
 ## 📸 Preview
 
 
-![Futuristic Cyberpunk Glow Logo](glowLogo.mp4)
+![Futuristic Cyberpunk Glow Logo](preview.png)
 
 ## 🛠 Technologies Used
 
